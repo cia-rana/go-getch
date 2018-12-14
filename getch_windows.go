@@ -164,7 +164,7 @@ func (h *handle) getEvents() []Event {
 		}
 	}
 
-	return results
+	return events
 }
 
 func (h handle) getConsoleMode() uint32 {
